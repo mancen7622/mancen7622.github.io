@@ -2878,7 +2878,7 @@ hr {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #6f2;
+  background: #5d8ee9;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -2928,6 +2928,10 @@ body {
   padding: 20px;
 }
 .post-body {
+  background: rgba(255,255,255,0.7);
+  padding: 20px;
+}
+#disqus_thread {
   background: rgba(255,255,255,0.7);
   padding: 20px;
 }
