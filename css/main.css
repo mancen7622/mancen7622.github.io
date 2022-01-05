@@ -1627,7 +1627,7 @@ pre code {
   width: 100%;
 }
 .with-love {
-  color: #f00;
+  color: #595858;
   display: inline-block;
   margin: 0 5px;
 }
@@ -2878,7 +2878,7 @@ hr {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #ffffa7;
+  background: #f2b5e5;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -2923,13 +2923,16 @@ body {
 .archive .collection-title {
   display: none !important;
 }
-.post-header {
+.post-block {
   background: rgba(255,255,255,0.7);
+  margin-top: 20px;
   padding: 20px;
 }
-.post-body {
-  background: rgba(255,255,255,0.7);
-  padding: 20px;
+.posts-expand .post-block:not(:first-child) {
+  margin-top: 20px;
+}
+.post-block:first-of-type {
+  padding-top: 20px;
 }
 #disqus_thread {
   background: rgba(255,255,255,0.7);
